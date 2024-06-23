@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width= device-width , initial-scale=1.0">
+        <title>Personal Portfolio Profile </title>
+        <link rel= "stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/f90712eb05.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+<!--  ---------------------------------------------header---------------------------------------------  -->
+
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <!-- <img src ="images/logo.png" class="logo"> -->
+                    <h1><span>A</span>nushka 
+                        ❀</h1>
+                    <ul id="sidemenu">
+                        <li><a href = "#header">Home</a></li>
+                        <li><a href = "#about">About</a></li>
+                        <li><a href = "#services">Services</a></li>
+                        <li><a href = "#portfolio">Portfolio</a></li>
+                        <li><a href = "#contact">Contact</a></li>
+
+                        <i class="fas fa-solid fa-xmark"  onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars"  onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi , I'm <span>Anushka</span><br>Priyadarshini</h1>
+                </div>
+            </div>
+        </div>
+
+<!-- ------------------------------------about--------------------------------------------- -->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src = "images/profileee.jpg">
+                    </div>
+
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p> I am a web developer with skills in Front End, Data Structure & Algorithm and React . I am hard
+                            working, enthusiastic, and eager to learn new technologies and tools. Prepared and eager to
+                            apply my skills to demanding projects, utilizing a robust understanding across various technical
+                            fields to pioneer inventive solutions. </p>
+
+                            <div class="tab-titles">
+                                <p class= "tab-links active-link"  onclick= "opentab('skills')">Skills</p>
+                                <p class= "tab-links"  onclick= "opentab('projects')">Projects</p>
+                                <p class= "tab-links" onclick= "opentab('education')">Education</p>
+                            </div>
+
+                            <div class="tab-contents active-tab"  id="skills">
+                                <ul>
+                                    <li><span>Data Structure and Algorithm</span><br>C , C++</li>
+                                    <li><span>Object Oriented Programming</span><br>C++</li>
+                                    <li><span>Front End</span><br>Java , C++</li>
+                                    <li><span>Deep Learning</span><br>Python</li>
+                                    <li><span>Database Management</span><br>SQL</li>
+                                    <li><span>Web Development</span><br>HTML , CSS , React , JavaScript</li>
+                                    <li><span>Machine Learning</span><br>Python</li>
+                                    <li><span>Cloud Computing</span><br>AWS</li>
+                                </ul>
+                            </div>                            
+
+                            <div class="tab-contents"  id="projects">
+                                <ul>
+                                    <li><span>App Development</span><br>Budget-Allocation App using Reactjs</r></li>
+                                    <li><span>Web Development</span><br>Movie Application using Reactjs</li>
+                                    <li><span>Machine Learning</span><br>AI workout instructor using convolutional neural network</li>
+                                    <li><span>Deep Learning</span><br>Dogs and Cats</li>
+                                    <li><span>Computer Vision</span><br>Expression Detector</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents"  id="education">
+                                <ul>
+                                    <li><span>2021-current</span><br>B.Tech at Kalinga Institute of Industrial Technology </li>
+                                    <li><span>2020-2021</span><br>Loyola School,ISC Boards</li>
+                                    <li><span>2019-2020</span><br>Loyola School ,ICSE Boards</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--  ----------------------------------------services------------------------------------------------ -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>  
+                        <h2>Web Design</h2>
+                        <p>Web design services encompass the creation of visually captivating and user-friendly websites tailored to clients' specific needs, fostering online presence and brand identity. By integrating responsive design and intuitive navigation, these services aim to deliver engaging digital experiences that captivate and retain visitors.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Focus on crafting intuitive and aesthetically pleasing user interfaces (UI) while ensuring seamless and satisfying user experiences (UX) across digital platforms. By integrating user research, wireframing, prototyping, and usability testing, these services aim to optimize engagement and usability for end-users.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-terminal"></i>
+                        <h2>App Design</h2>
+                        <p>Specialize in conceptualizing and crafting intuitive and visually engaging user interfaces for mobile applications across various platforms. By integrating user-centric design principles and industry best practices, these services aim to enhance user experience and drive user engagement and retention.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+<!--  ---------------------------------------portfolio-------------------------------------------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>AI Personal Trainer</h3>
+                            <p>The Personal AI Trainer is an intelligent gym assistant designed to help you perfect your workout routine.</p>
+                                <a href="https://github.com/AnushkaPriyadarshini/Personal-AI-Trainer.git "><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Budget-Allocation App</h3>
+                            <p>This app helps you manage and track your expenses, set budget goals, and visualize your spending habits.</p>
+                                <a href="https://github.com/AnushkaPriyadarshini/Budget-Allocation-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>Music Recommendation</h3>
+                            <p>This system detects your facial expressions and identifies the singer you want to listen to, then suggests music accordingly.</p>
+                                <a href="https://github.com/AnushkaPriyadarshini/Music-Recommendation.git"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <a href ="#" class="btn">See more</a>
+            </div>
+        </div>
+
+<!-- ----------------------------------------------contact------------------------------------------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>anushkapriyadarshini1@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>8969648998</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/anushka-priyadarshini-ba3b662b4/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/AnushkaPriyadarshini"><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                        </div>
+
+                        <a href="images/Internship Resume Final.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text"  name="Name"  placeholder="Your Name" required>
+                            <input type="email"  name="Email"  placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6"  placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright © Anushka.<i class="fa-brands fa-gratipay"></i></p>
+            </div>
+        </div>
+
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname)
+            {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxt4MHD6ezPAjP677T1u0xWxjK_LNgPSmWqpYqfii9tOQc-UNN4_voMYg9X0fAUDtIrvg/exec'
+            const form = document.forms['submit-to-google-sheet']
+
+            const msg = document.getElementById("msg")
+  
+            form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function()
+                { 
+                     msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+    </body>
+</html>
